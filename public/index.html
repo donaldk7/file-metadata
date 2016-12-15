@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <link type='text/css' rel='stylesheet' href='stylesheet.css'/>
+</header>
+<body>
+    <h1>File Metadata Microservice</h1>
+    <p>Upload a small file to see its file size in bytes</p>
+    
+    <form action='/uploads' method='post' enctype="multipart/form-data">
+        <label for="a">File to upload</label> <br>
+        <input class='format' id='a' type="file" name="filename" required/> <br>
+        <input class='format' id = 'submit' type="submit" value="Submit"/>
+    </form>
+    
+</body>
+</html>
